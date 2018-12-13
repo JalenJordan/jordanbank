@@ -1,0 +1,346 @@
+body{
+    background: darkolivegreen;
+    color:white;
+}
+
+.logo1{
+    text-align: left;
+    font-size: 60px;
+    margin-bottom: 10%;
+    border: gold solid 5px;
+    border-top-right-radius: 40%;
+    width: 25%;
+}
+
+#logo2{
+    text-align: left;
+    font-size: 60px;
+    margin-bottom: 10%;
+    border: gold solid 5px;
+    border-top-right-radius: 40%;
+    width: 50%;
+    color: white;
+}
+
+#textinfo{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+#pinINPUT{
+    text-align: center;
+    width: 50%;
+    height:30px;
+    margin-left: 25%;
+    margin-bottom: 30px;
+    color:darkolivegreen;
+}
+
+/* #exitbtn{
+    float: right;
+    border:8px solid white;
+    background: white;
+    color:black
+} */
+
+#puesdobtn{
+    float: right;
+    border: 8px solid white;
+    background: white;
+    color: black;
+}
+
+#puesdobtn:hover{
+    text-decoration: none;
+    border:solid groove 8px white;
+    background: white;
+    color: darkolivegreen;
+    width: 30%;
+    text-align: center;
+}
+
+#spanishbtn,#japanesebtn,#frenchbtn,#englishbtn{
+    color: white;
+    background: darkolivegreen;
+    border: outset;
+    float: right;
+    margin-right: 24px;
+}
+
+#btn60,#btn40,#btn20,#btn80,#btn100,#otherbtn{
+    width: 20%;
+    padding: 5%;
+    text-align: left;
+    float: right;
+    background: green;    
+    color: white;
+    border: outset;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+#depositpage{
+    display: none;
+}
+
+#accountpage{
+    display: none;
+}
+
+#homepage{
+    display:none;
+}
+
+#withdrawpage{
+    display: none;
+}
+
+#puesdo{
+    display: none;
+}
+
+#welcome{
+    text-align: center;
+}
+
+#exitbtn1, #exitbtn3{
+    margin-top: 0px;
+    border: outset;
+    /* float: right; */
+    background: darkolivegreen;
+    color:white;
+    width:129px;
+    margin-left: 486px;
+}
+
+#receiptbtn{
+    margin-top: 22%;
+    border: outset;
+    float: right;
+    background:darkolivegreen;
+    color: white;
+    margin-left: -89px;
+}
+
+#withdrawbtn{
+    border: 6px solid white;
+    float: right;
+    width: 50%;
+    margin-bottom: 40px;
+    background: white;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+
+.caption{
+    color: white;
+    text-align: center;
+    font-size:30px;
+    font-style: italic;
+}
+
+#withdrawbtn:hover{
+    color: darkolivegreen;
+    text-decoration: none;
+    border: 6px solid white;
+    font-size:40px;
+}
+
+#depositbtn{
+    float: right;
+    border: 6px solid white;
+    width: 50%;
+    margin-bottom: 40px;
+    background: white;
+    font-size: 30px;
+    color: darkolivegreen;
+}
+
+#depositbtn:hover{
+    color: darkolivegreen;
+    text-decoration: none;
+    border: 6px solid white;
+    font-size:40px;
+}
+
+#accountbtn{
+    float: right;
+    border: 6px solid white;
+    width: 50%;
+    margin-bottom: 40px;
+    background: white;
+    font-size: 30px;
+    color: darkolivegreen;
+}
+
+#accountbtn:hover{
+    color: darkolivegreen;
+    text-decoration: none;
+    border: 6px solid white;
+    font-size:40px;
+}
+
+#gobackbtn1{
+    float: right;
+    border: 6px solid white;
+    width: 50%;
+    margin-bottom: 40px;
+    background: white;
+    font-size: 30px;
+    color: darkolivegreen;
+}
+
+#gobackbtn1:hover{
+    color: darkolivegreen;
+    text-decoration: none;
+    border: 6px solid white;
+    font-size:40px;
+}
+
+#enterAmn{
+    margin-left: 82%;
+    color: black;
+}
+
+#enterAMO{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+select{
+    margin-left: 40%;
+    color: black;
+}
+
+#tabs{
+    font-size: 50px;
+    color: white;
+    text-align: right;
+}
+
+#funds{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+#nextbtn{
+    text-align: center;
+    float: right;
+    width: 100%;
+    color: darkolivegreen;
+}
+
+#dailylimit, #monthlylimit{
+    color:white;
+    text-align: right;
+}
+
+.info2{
+    float: right;
+    color: white;
+}
+
+.smallinfo1{
+    color: white;
+    text-align: center;
+}
+
+#budgetcircle1{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: blue solid 5px;
+    text-align: center;
+    padding: 32px;
+    font-size: 40px;
+    margin-left: 74%;
+}
+
+#budgetcircle12{
+    width: 150px;
+    height: 150px;
+    border-radius: 1000px;
+    border: blue solid 5px;
+    border-right: none;
+    border-top:none;
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+    margin-left: 75%;
+}
+
+#budgetcircle13{
+    width:150px;
+    height: 150px;
+    border-radius: 100px;
+    border: blue solid 5px;
+    border-right: none;
+    border-bottom: none;
+    border-top:none;
+    text-align: center;
+    padding: 40px;
+    font-size: 40px;
+    margin-left: 78%;
+}
+
+table{
+    width:100%;
+    text-align: center;
+}
+
+.ab{
+    text-align: center;
+}
+
+#Checkings{
+    font-size:150px;
+}
+
+.types{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.middle{
+    text-align: center;
+    margin-bottom: 5%;
+    background:gray;
+}
+
+/* #budgetcircle,#budgetcircle2,#budgetcircle3{
+    margin-left: 95%;
+} */
+
+#vacation{
+    margin-left: 92%;
+}
+
+#electronic{
+    margin-left: 93%;
+}
+
+#school{
+    margin-left: 98%;
+}
+
+#recentTrans{
+    text-align: center;
+}
+
+#table2{
+    text-align: center;
+    background: gray;
+    color: black;
+}
+
+th{
+    text-align: center;
+}
+
+#backbtn1{
+    margin-top: 12%;
+    background: gray;
+}

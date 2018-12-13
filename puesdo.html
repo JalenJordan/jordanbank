@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/puesdostyle.css">
+     <title>ATM Puesode Code</title>
+</head>
+<body>
+     <h3 id="start">Start</h3>
+     <ul>
+          <li>EVENT: Insert Card</li>
+          <li class="indent">LOGIC: Start Check Card</li>
+     </ul>
+     <h3 id="checkCard">Check Card</h3>
+     <ul>
+          <li> add in the ability to check if the card is valid or not</li>
+          <li>add in a check for the pin code if it is valid or not</li>
+     </ul>
+
+     <h3 id="selectLang">Select Language</h3>
+     <ul>
+          <li>OPTION: English</li>
+          <li>OPTION: Français</li>
+          <li>OPTION: 日本語</li>
+          <li>OPTION: Español</li>
+          <br>
+          <li class="indent">LOGIC: When option is selected change language and go to DashBoard</li>
+     </ul>
+
+     <h3 id="dashBoard">DashBoard</h3>
+     <ul>
+          <li>LINK DISPLAY: DEPOSIT</li>
+          <li class="indent">LOGIC: Go to Deposit</li>
+     </ul>
+     <ul>
+          <li>LINK DISPLAY: WITHDRAW</li>
+          <li class="indent">LOGIC: Go to Withdraw</li>
+     </ul>
+     <ul>
+          <li>LINK DISPLAY: QUICK CASH</li>
+          <li class="indent">LOGIC: Go to Quick Cash</li>
+     </ul>
+     <ul>
+          <li>LINK DISPLAY: CHANGE LANGUAGE</li>
+          <li class="indent">LOGIC: Go to Change Language</li>
+     </ul>
+
+     <h3 id="pin">Enter PIN</h3>
+     <ul>
+          <li>LOGIC: PIN is Correct</li>
+          <li class="indent">DISPLAY: Choose Checking or Saving account</li>
+     </ul>
+     <ul>
+          <li>OPTION: PIN is Incorrect</li>
+          <li class="indent">DISPLAY: Invaild</li>
+          <li class="indent-2x">LOGIC: Terminates after 3rd try</li>
+     </ul>
+
+     <h3 id="checking">Checking Account</h3>
+     <ul>
+          <li>DISPLAY: Check account balance or withdraw cash</li>
+          <li class="indent">OPTION: Check account or withdraw cash</li>
+     </ul>
+
+     <!-- <h3 id="saving">Saving Account</h3>
+     <ul>
+          <li>LOGIC: Does Saving account exist</li>
+          <li class="indent">OPTION: YES/NO</li>
+          <li>LOGIC :If yes go to checking</li>
+          <li>LOGIC: if no go to dashboard</li>
+     </ul> -->
+
+     <h3 id="checkBal">Check Balance</h3>
+     <ul>
+          <li>DISPLAY: Ouput account balance info</li>
+          <li>DISPLAY: Do you want a receipt</li>
+     </ul>
+
+     <h3 id="withdraw">Withdraw</h3>
+     <ul>
+          <li>INPUT DISPLAY: Enter the amount to withdraw</li>
+          <li class="indent">LOGIC: Is account funds sufficient YES/NO</li>
+     </ul>
+     <ul>
+          <li>LOGIC: Go to Check Balance Amount</li>
+     </ul>
+     <h3 id="checkBalAmount">Checking Amount in Balance</h3>
+     <ul>
+          <li>LOGIC: if False go to Not Sufficient</li>
+          <li>LOGIC: if True go to Is Sufficient</li>
+     </ul>
+     <h3 id="notSufficient">Not Sufficient</h3>
+     <ul>
+          <li>LOGIC: Go back to withdraw option</li>
+     </ul>
+
+     <h3 id="isSufficient">Is Sufficient</h3>
+     <ul>
+          <li>PROCESS: Update new balance</li>
+          <li>PROCESS: Supply Requisted cash in the slot</li>
+          <li>DISPLAY: Do you want a receipt YES/NO</li>
+     </ul>
+</body>
+</html>

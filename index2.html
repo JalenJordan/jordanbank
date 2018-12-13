@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/style.css">
+     <title>Bank Of Jordan</title>
+</head>
+<body>
+     <div id="beginning">
+          <div class="container-fluid">
+               <div class="row">
+                    <div class="col-sm-12">
+                         <div class="caption">
+                              <h1 class="logo1">JORDAN BANK</h1>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="container">
+               <div class="row">
+                    <div class="col-sm-12">
+                         <div  id="textinfo">Please use the keypad to enter your PIN and press ENTER to continue.</div>
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col-sm-12">
+                         <form onsubmit="pinNum()">
+                              <input type="number"  id="pinINPUT">
+                         </form>
+                    </div>
+               </div>
+          </div>
+          <div class="container">
+               <div class="row">
+                    <div class="col-sm-8">
+                         <button id="spanishbtn" onclick="spainsh()">Español</button>
+                         <button id="japanesebtn" onclick="">日本語</button>
+                         <button id="frenchbtn" onclick="">Français</button>
+                         <button id="englishbtn" onclick="">English</button>
+                    </div>
+               </div>
+          </div>
+          <div class="container-fluid">
+               <div class="row">
+                    <div class="col-sm-12">
+                         <button id="puesdobtn" class="puesdobtn" onclick="puesodelink()">Exit</button>
+                    </div>
+               </div>
+          </div>
+     </div>
+     
+     
+     <div id="homepage">
+          <div class="container">
+               <div class="row">
+                    <div class="col-sm-6">
+                         <h1 id="logo2">JORDAN BANK</h1>
+                    </div>
+                    <div class="col-sm-6">
+                         <button id="exitbtn1" onclick="exit()">Exit</button>
+                         <!-- <button id="receiptbtn" onclick="receipt()">Receipt Will Print</button> -->
+                    </div>
+               </div>
+          </div>
+          <div class="container">
+               <div class="row">
+                    <div class="col-sm-12">
+                         <div class="caption">
+                              <p>What can we do for you Today?</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="container">
+               <div class="row">
+                    <div class="col-sm-8">
+                         <button id="withdrawbtn" onclick="withdrawlink()">Withdraw</button>
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col-sm-8">
+                         <button id="depositbtn" onclick="depositlink()">Deposit</button>
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col-sm-8">
+                         <button id="accountbtn" onclick="accountlink()">Account</button>
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col-sm-8">
+                         <button id="gobackbtn1" onclick="exit()">Go Back</button>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <div id="accountpage">
+          <div class="tops">
+               <div class="container">
+                    <div class="row">
+                         <div class="col-sm-12">
+                              <h1 id="logo2">JORDAN BANK</h1>
+                              <h4 id="welcome">Welcome Jalen Jordan</h4>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="ab">
+               <div class="container">
+                    <div class="row">
+                         <div class="col-sm-12">
+                              <h1  id="Checkings">14.09</h1>
+                         </div>
+                    </div>
+                    <div class="row">
+                         <div class="col-sm-12">
+                              <p id="type">Checkings</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="middle">
+               <div class="container">
+                    <div class="row">
+                         <div id="pendCharge" class="col-sm-6">
+                              <p>Pending Charges</p>
+                              <h3 id="pendCharges">$0</h3>
+                         </div>
+                         <div id="safeSpend" class="col-sm-6">
+                              <p>Safe To Spend</p>
+                              <h3>$0</h3>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="types">
+               <div class="container">
+                    <div class="row">
+                         <div class="col-sm-3">
+                              <div id="budgetcircle1">100</div>
+                              <p id="vacation">Vacation</p>
+                         </div>
+                         <div class="col-sm-3">
+                              <div id="budgetcircle12">75</div>
+                              <p id="electronic">Eletronics</p>
+                         </div>
+                         <div class="col-sm-3">
+                              <div id="budgetcircle13">50</div>
+                              <p id="school">School</p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="transactions">
+               <div class="container">
+                    <div class="row">
+                         <div class="col-sm-12">
+                              <h2 id="recentTrans">Recent Transaction</h2>
+                              <table id="table2">
+                                   <tr>
+                                        <th>DATE</th>
+                                        <th>PURCHASE</th>
+                                        <th>AMOUNT</th>
+                                   </tr>
+                                   <tr>
+                                        <td>07/20/2017</td>
+                                        <td>MSI Radeon RX570</td>
+                                        <td>-172.79</td>
+                                   </tr>
+                                   <tr>
+                                        <td>05/15/2017</td>
+                                        <td>AM4 Ryzen 3 1200</td>
+                                        <td>-99.99</td>
+                                   </tr>
+                                   <tr>
+                                        <td>04/28/2017</td>
+                                        <td>Javascript for dumbies</td>
+                                        <td>-24.50</td>
+                                   </tr>
+                              </table>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <button id="backbtn1" onclick="goback()">GO BACK</button>
+     </div>
+     
+     <div id="depositpage">
+          <div class="container">
+               <div class="row">
+                    <div class="col-sm-12">
+                         <h1 id="logo2">JORDAN BANK</h1>
+                         <div class="caption">
+                              <h3 id="enterAMO">Enter Amount</h3>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <hr>
+          <div class="container">
+               <div class="row">
+                    <div class="col-sm-3">
+                         <p id="tabs">Amount</p>
+                    </div>
+                    <div class="col-sm-9">
+                         <input type="number"  id="enterAmn">
+                         <p id="dailylimit">Daily Limit: $3,000.00</p>
+                         <p id="monthlylimit">Monthly Limit: $5,000.00</p>
+                    </div>
+               </div>
+          </div>
+          <hr>
+          <div class="container">
+               <div class="row">
+                    <div class="col-sm-12">
+                         <p id="funds">Funds Availability</p>
+                         <select name="transactions" id="options">
+                              <option value="0">-Select an Option</option>
+                              <option value="1">Available for Processing Tonight</option>
+                              <option value="2">Available Immediately</option>
+                         </select>
+                    </div>
+               </div>
+          </div>
+          <hr>
+          <div class="container">
+               <div class="row">
+                    <div class="col-sm-12">
+                         <button id="nextbtn" onclick="nextlink()">Next</button>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <div id="withdrawpage">
+          <div class="container">
+               <div class="row">
+                    <div class="col-sm-8">
+                         <h1 id="logo2">JORDAN BANK</h1>
+                         <!-- <h4 class="smallinfo1">Welcome!</h4> -->
+                         <h2 class="info2">Select withdrawal amount</h2>
+                    </div>
+               </div>
+          </div>
+          <div class="container">
+               <div class="row">
+                    <div class="col-sm-9">
+                         <button id="btn60" onclick="withdrawn60()">$60</button>
+                         <button id="btn40" onclick="withdrawn40()">$40</button>
+                         <button id="btn20" onclick="withdrawn20()">$20</button>
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col-sm-9">
+                         <button id="btn80" onclick="withdrawn80()">$80</button>
+                         <button id="btn100" onclick="withdrawn100()">$100</button>
+                         <button id="otherbtn" onclick="withdrawn()">Other</button>
+                    </div>
+               </div>
+          </div>
+          <div class="container">
+               <div class="row">
+                    <div class="col-sm-12">
+                         <button id="exitbtn3" onclick="returnCard()">Return card</button>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <div id="puesdo">
+          <h3 id="start">Start</h3>
+          <ul>
+               <li>INPUT DISPLAY: When you put the correct PIN</li>
+               <li>LOGIC: if pin is correct then DISPLAY homepage</li>
+          </ul>
+          <h3 id="selectLang">Select Language</h3>
+          <ul>
+               <li>OPTION: English</li>
+               <li>OPTION: Français</li>
+               <li>OPTION: 日本語</li>
+               <li>OPTION: Español</li>
+               <br>
+               <li class="indent">LOGIC: When option is selected change language and go to DashBoard</li>
+          </ul>
+     
+          <h3 id="dashBoard">Homepage</h3>
+          <ul>
+               <li>LINK DISPLAY: DEPOSIT</li>
+               <li class="indent">LOGIC: DISPLAY Deposit and HIDE homepage</li>
+          </ul>
+          <ul>
+               <li>LINK DISPLAY: WITHDRAW</li>
+               <li class="indent">LOGIC: DISPLAY Withdraw and HIDE homepage</li>
+          </ul>
+          <ul>
+               <li>LINK DISPLAY: Account</li>
+               <li class="indent">LOGIC: DISPLAY Account and HIDE homepage</li>
+          </ul>
+          <ul>
+               <li>LINK DISPLAY:  Go Back</li>
+               <li class="indent">LOGIC: DISPLAY Index2.html and HIDE homepage</li>
+          </ul>
+     
+          <h3 id="pin">Enter PIN</h3>
+          <ul>
+               <li>LOGIC: PIN is Correct</li>
+               <li class="indent">DISPLAY: Homepage</li>
+          </ul>
+     
+          <h3>Account</h3>
+          <ul>
+               <li>DISPLAY: Ouput account balance info</li>
+          </ul>
+     
+          <h3>Withdraw</h3>
+          <ul>
+               <li>Buttons DISPLAY: 20, 40, 60, 80, 100, and other</li>
+               <li class="indent">LOGIC: Subtract the amount on the button</li>
+          </ul>
+          <ul>
+               <li>LOGIC: Go to Check Balance Amount</li>
+          </ul>
+          <h3>Deposit</h3>
+          <ul>
+               <li>INPUT: amount</li>
+               <li>INPUT: process tommorrow</li>
+               <li class="indent">LOGIC: add amount to  pending charges</li>
+               <li>INPUT: process Immediately</li>
+               <li class="indent">LOGIC: add amount to current account balance</li>
+          </ul>
+          <h3></h3>
+          <ul>
+               <li>LOGIC: Go back to withdraw option</li>
+          </ul>
+     </div>
+</body>
+<script src="java/bank.js"></script>
+</html>
