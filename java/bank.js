@@ -166,3 +166,9 @@ function exit(){
      var puesdo = document.getElementById("puesdo");
      puesdo.style.display = "block";
 }
+
+function password(){
+     event.preventDefault();
+     var recovery = document.getElementById("recovery");
+     recovery.innerHTML = "1738";
+}
